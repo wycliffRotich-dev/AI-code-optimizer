@@ -1,3 +1,4 @@
+import AdBanner from './components/AdBanner';
 "use client";
 
 import React, { useState } from "react";
@@ -69,7 +70,7 @@ export default function CodeOptimizer() {
       </header>
 
       {/* Main Container */}
-      <main className="max-w-5xl w-full mx-auto p-4 sm:p-6 my-auto space-y-8">
+      <main><AdBanner /> className="max-w-5xl w-full mx-auto p-4 sm:p-6 my-auto space-y-8">
         <div className="text-center max-w-2xl mx-auto space-y-3">
           <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
             AI-Powered Code <span className="bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">Minifier & Optimizer</span>
